@@ -5,6 +5,6 @@ name: nanaqi667-dev
 hystrix:
   threadpool:
     default:
-      coreSize: 20
+      coreSize: 10
       maxQueueSize: 200
-      queueSizeRejectionThreshold: 4
+      queueSizeRejectionThreshold: 3
