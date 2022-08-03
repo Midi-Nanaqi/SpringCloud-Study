@@ -2,3 +2,9 @@ info:
   word: hello-nanaqi667-dev-1233
   username: nanaqi668000000
 name: nanaqi667-dev
+hystrix:
+  threadpool:
+    default:
+      coreSize: 20
+      maxQueueSize: 200
+      queueSizeRejectionThreshold: 4
