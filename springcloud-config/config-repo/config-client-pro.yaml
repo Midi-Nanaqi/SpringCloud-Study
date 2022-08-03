@@ -2,3 +2,11 @@ info:
   word: hello-nanaqi667-pro
   username: nanaqi669
 name: nanaqi667-pro
+hystrix:
+  # 配置Hystrix中线程池相关信息
+  threadpool:
+    # 默认的线程池配置
+    default:
+      coreSize: 10
+      maxQueueSize: 200
+      queueSizeRejectionThreshold: 4
